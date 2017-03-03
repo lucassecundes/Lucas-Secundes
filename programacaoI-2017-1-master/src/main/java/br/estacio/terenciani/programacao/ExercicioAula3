@@ -1,0 +1,17 @@
+
+package br.estacio.terenciani.programacao;
+
+
+public class ExercicioAula3 {
+
+
+    public static void main(String[] args) {
+        byte minhaIdade = 21;
+        //sout
+        System.out.println("idade: "+ minhaIdade);
+        byte meuNome = Lucas ;
+        //sout
+        System.out.println("Meu Nome: "+ meuNome);
+    }
+    
+}
