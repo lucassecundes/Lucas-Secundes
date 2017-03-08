@@ -1,0 +1,25 @@
+
+package br.estacio.terenciani.programacao;
+
+
+public class TesteIncremento {
+
+
+    public static void main(String[] args) {
+      
+        int prefixo;
+        int sufixo;
+        
+        int numero =5;
+        
+        prefixo = ++numero;
+        System.out.println("Numero apos prefixo: " + numero);
+        
+        sufixo = numero++;
+        
+        System.out.println("Numero apos sufixo: " + numero);
+        System.out.println("Prefixo: " + prefixo);
+        System.out.println("sufixo: " + sufixo);
+    }
+    
+}
