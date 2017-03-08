@@ -20,6 +20,15 @@ public class TesteIncremento {
         System.out.println("Numero apos sufixo: " + numero);
         System.out.println("Prefixo: " + prefixo);
         System.out.println("sufixo: " + sufixo);
+        
+        int a = 5;
+        int x = a++;
+        System.out.println("X: " + x);
+        
+        int b = 5;
+        x = ++b;
+        System.out.println("X: " + x);
     }
     
 }
+
